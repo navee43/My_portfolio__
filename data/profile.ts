@@ -59,7 +59,7 @@ export const profile = {
   ],
 
   about: [
-    "Hi, I'm Naveen Yadav, an Information Technology student at IIIT Una with hands-on experience in frontend and full-stack development.",
+    "Hi, I'm Naveen Yadav, an Information Technology Final Year student at IIIT Una with hands-on experience in frontend and full-stack development.",
     "I've worked with modern web technologies, APIs, databases and LLM-based applications. I enjoy building practical software, solving engineering problems and exploring AI-powered workflows.",
     "Through my internships and personal projects, I've developed an interest in creating reliable applications that combine good user experiences with useful functionality.",
   ],

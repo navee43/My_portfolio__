@@ -1,0 +1,18 @@
+# Render Blueprint: lets Render set the service up from this file.
+# In Render: New > Blueprint > pick this repository.
+services:
+  - type: web
+    name: naveen-yadav-portfolio
+    runtime: node
+    plan: free
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: NEXT_TELEMETRY_DISABLED
+        value: "1"
+      # Set this to the URL Render gives you (or your own domain) after the first deploy.
+      - key: NEXT_PUBLIC_SITE_URL
+        sync: false
